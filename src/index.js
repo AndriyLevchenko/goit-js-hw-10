@@ -33,7 +33,7 @@ function onSearch (e) {
             }
         })
         .catch(onFetchError)
-        .finally(() => console.log('Detailed information is displayed'));
+        .finally(() => console.log('Make a second request'));
     }
 }
 
